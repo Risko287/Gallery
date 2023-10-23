@@ -1,0 +1,2 @@
+# Gallery
+Interaktívna galéria obrázkov
