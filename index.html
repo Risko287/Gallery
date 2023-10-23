@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaktívna galéria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Interaktívna galéria</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Galéria obrázkov</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="map.html">Mapa</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <h1 class="text-center m-4">Galéria obrázkov</h1>
+    <input type="text" id="search" oninput="search()" placeholder="Search.." title="Type">
+    <div id="gallery">
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal modal-tour modal-xl position-fixed bg-gradient" tabindex="-1" role="dialog" id="modal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content rounded-4 shadow">
+            <div class="modal-header border-bottom-0 w-auto justify-content-center">
+                <h1 class="modal-title fs-5" id="modal-title">Modal title</h1>
+                <button type="button" class="btn-close" onclick="closeModal(); stopShow()"></button>
+            </div>
+            <div class="modal-body py-0">
+                <div class="col-md-6">
+                    <button type="button" class="btn-dark" id="btn-prev">Predchádzajúci obrázok</button>
+                    <button type="button" class="btn-info" id="btn-next">Ďalší obrázok</button>
+                    <button type="button" class="btn-danger" id="btn-show">Spustiť prezentáciu</button>
+                    <button type="button" onclick="stopShow()">STOP</button>
+                </div>
+                <br>
+                <div>
+                    <img id="modal-image">
+                </div>
+                <p id="date"></p>
+                <p id="description"></p>
+                <div id="container-modal">
+                    <div id="map-modal"></div>
+                </div>
+            </div>
+            <div class="modal-footer flex-column border-top-0">
+                <button type="button" class="btn btn-lg btn-light w-100 mx-0" onclick="closeModal(); stopShow()">Close
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+<script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqJpdswMCMvj0LxGAk1CIZm3YUkwclCXo&callback=initMap&v=weekly"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    margin: 2% 5%;
+    width: 90%;
+    z-index: 1;
+
+}
+
+#container-modal {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+    z-index: 1;
+
+}
+
+#map, #map-modal {
+    border: solid 1px grey;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: blue solid 2px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
+}
+
+.image-container {
+    margin: 10px;
+    padding: 5px;
+    background-color: palegoldenrod;
+}
+.image-container:hover{
+    background-color: yellow;
+    box-shadow: 10px 10px 46px 3px rgba(0,0,0,0.7);
+}
+
+.images {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.modal-images {
+    max-width: 100%;
+    border: 1px grey;
+}
+
+#search {
+    width: 50%;
+    height: 3rem;
+    margin: 0 25% 2%;
+    padding-left: 2rem;
+    border-radius: 30px;
+}
+
+#route {
+    width: 40%;
+    margin: 2% 30% 2%;
+    height: 3rem;
+    border-radius: 30px;
+    background-color: aquamarine;
+}

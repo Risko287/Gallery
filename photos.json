@@ -1,0 +1,136 @@
+{
+  "photos": [
+    {
+      "name": "einstein.jpg",
+      "title": "Albert Einstein",
+      "description": "kreslený Albert Einstein s rukami",
+      "date": "2000-12-18T17:40",
+      "gps": {
+        "lat": "50.8791806",
+        "lng": "18.8265049"
+      },
+      "path": "photos/einstein.jpg"
+    },
+    {
+      "name": "lev.jpg",
+      "title": "Lev",
+      "description": "lev na skale",
+      "date": "2015-04-09T21:57",
+      "gps": {
+        "lat": "46.8791806",
+        "lng": "18.8265049"
+      },
+      "path": "photos/lev.jpg"
+    },
+    {
+      "name": "mimoni.jpg",
+      "title": "Mimoni",
+      "description": "mimoni s holými zadkami",
+      "date": "2018-12-25T21:20",
+      "gps": {
+        "lat": "49.8791806",
+        "lng": "19.8265049"
+      },
+      "path": "photos/mimoni.jpg"
+    },
+    {
+      "name": "bordel.jpg",
+      "title": "Bordel",
+      "description": "vsetko na jednom obrazku",
+      "date": "2018-12-29T15:30",
+      "gps": {
+        "lat": "48.6201806",
+        "lng": "17.8265049"
+      },
+      "path": "photos/bordel.jpg"
+    },
+    {
+      "name": "windows.jpg",
+      "title": "Windows",
+      "description": "farebny windows",
+      "date": "2019-11-30T11:20",
+      "gps": {
+        "lat": "48.5791806",
+        "lng": "18.8265049"
+      },
+      "path": "photos/windows.jpg"
+    },
+    {
+      "name": "hajzliak.jpg",
+      "title": "Hajzliak",
+      "description": "programátor v skratke",
+      "date": "2020-02-29T15:20",
+      "gps": {
+        "lat": "48.0791806",
+        "lng": "19.8265049"
+      },
+      "path": "photos/hajzliak.jpg"
+    },
+    {
+      "name": "schonbrunn.jpg",
+      "title": "Schonbrunn",
+      "description": "záhrady v schonbrunne",
+      "date": "2020-04-03T16:43",
+      "gps": {
+        "lat": "48.180913",
+        "lng": "16.308351"
+      },
+      "path": "photos/schonbrunn.jpg"
+    },
+    {
+      "name": "most.jpg",
+      "title": "Karlov most",
+      "description": "Karlov most v Prahe s oblakmi",
+      "date": "2020-04-15T11:27",
+      "gps": {
+        "lat": "50.086474",
+        "lng": "14.411654"
+      },
+      "path": "photos/most.jpg"
+    },
+    {
+      "name": "ufo.jpg",
+      "title": "Ufo",
+      "description": "Most SNP v Bratislave",
+      "date": "2020-06-25T21:27",
+      "gps": {
+        "lat": "48.137374",
+        "lng": "17.103875"
+      },
+      "path": "photos/ufo.jpg"
+    },
+    {
+      "name": "zvolen.jpg",
+      "title": "Zvolen",
+      "description": "Námestie SNP vo Zvolene",
+      "date": "2020-10-07T09:57",
+      "gps": {
+        "lat": "48.573693",
+        "lng": "19.126633"
+      },
+      "path": "photos/zvolen.jpg"
+    },
+    {
+      "name": "tatry.jpg",
+      "title": "Tatry",
+      "description": "pohorie Tatry s cestou",
+      "date": "2021-02-28T09:06",
+      "gps": {
+        "lat": "49.159963",
+        "lng": "20.272509"
+      },
+      "path": "photos/tatry.jpg"
+    },
+    {
+      "name": "bardejov.jpg",
+      "title": "Bardejov",
+      "description": "Bardejovské námestie",
+      "date": "2021-07-18T13:06",
+      "gps": {
+        "lat": "49.292301",
+        "lng": "21.275733"
+      },
+      "path": "photos/bardejov.jpg"
+    }
+  ]
+}
