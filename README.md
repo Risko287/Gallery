@@ -1,24 +1,17 @@
 # Interaktívna Galéria Obrázkov
 
-## Krátky popis
+Táto interaktívna webová aplikácia využíva JavaScript, Bootstrap a Google Maps API na vytvorenie zaujímavej fotogalérie. Načíta dáta o fotografiách z JSON súboru a dynamicky vytvorí galériu obrázkov. Používatelia môžu prezerať náhľady fotografií a pri ich výbere sa zobrazí plná verzia obrázka v modálnom režime. Okrem toho poskytuje možnosti filtrovania na základe názvu a popisu fotografií, a dokonca aj funkciu prezentácie. Táto aplikácia je skvelým spôsobom, ako objaviť fotografie a ich polohy na interaktívnej mape.
 
-Interaktívna webová aplikácia kombinuje JavaScript, Bootstrap a Google Maps API na zobrazenie interaktívnej galérie obrázkov. Aplikácia načíta dáta o fotografiách z JSON súboru, dynamicky vytvorí galériu obrázkov a umožní používateľom zobraziť si jednotlivé fotografie v modálnom režime. Skript tiež poskytuje funkcie ako prezentácia, vyhľadávanie a zobrazovanie polohy pre každú fotografiu.
+## Hlavné Funkcie
 
-## Začíname
+- Zobrazenie náhľadov fotografií.
+- Možnosť zobraziť fotografie v plnej veľkosti s názvom, popisom a dátumom.
+- Real-time filter umožňujúci vyhľadávanie fotografií podľa názvu a popisu.
+- Prezentácia fotografií s možnosťou zastavenia.
 
-1. Naklonujte tento repozitár na svoj počítač.
-2. Uistite sa, že máte nastavený webový server na poskytovanie HTML a JavaScript súborov.
-3. Uistite sa, že máte v projekte nainštalované potrebné závislosti, vrátane Bootstrap a Google Maps API:
+## Responzivita
 
-   - Bootstrap CSS: `<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">`
-   - Bootstrap JavaScript: `<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>`
-   - Google Maps API: `<script async src="https://maps.googleapis.com/maps/api/js?key=VAŠE_API_KĽÚČ&callback=initMap&v=weekly"></script>`
-
-   Nahraďte "VAŠE_API_KĽÚČ" vaším API kľúčom pre Google Maps.
-
-4. Použite poskytnutý CSS štýl pre vylepšenie vizuálneho vzhľadu a rozloženia webovej aplikácie.
-
-5. Otvorte aplikáciu vo svojom prehliadači.
+Stránka je plne responzívna a prispôsobuje sa rôznym zariadeniam a orientáciám mobilných telefónov.
 
 ## Použitie
 
@@ -29,14 +22,9 @@ Interaktívna webová aplikácia kombinuje JavaScript, Bootstrap a Google Maps A
 5. V hornom vyhľadávacom paneli môžete filtrovať fotografie na základe kľúčových slov v ich názvoch alebo popisoch.
 6. Každá fotografia je zobrazená na Google Maps. Kliknutím na značku na mape sa otvorí príslušná fotografia v modálnom režime.
 
-## Licencia
 
-Tento projekt je licencovaný pod MIT licenciou. Viac informácií nájdete v súbore [LICENSE](LICENSE).
 
-## Kontakt
 
-Ak máte akékoľvek otázky alebo pripomienky, prosím, kontaktujte nás na [Váš Email].
 
----
 
-Nahraďte "[Váš Email]" a "VAŠE_API_KĽÚČ" vašimi vlastnými informáciami a API kľúčom pre Google Maps. Tento popis poskytuje stručný prehľad o webovej aplikácii a jej závislostiach, vrátane použitého CSS štýlu.
+
